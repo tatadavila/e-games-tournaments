@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <img 
-        className="construction-img"
+        className="img-fluid"
         src={InConstruction}
         alt="En Construccion"
       />
