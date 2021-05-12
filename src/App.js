@@ -1,14 +1,14 @@
-import InConstruction from './assets/img/web_in_construction.png';
-import './App.css';
+import "./App.css";
+import "./styles/Global.css"
+import Home from "./components/Home";
+import NavBar from "./components/NavBar";
+
 
 function App() {
   return (
     <div className="App">
-      <img 
-        className="img-fluid"
-        src={InConstruction}
-        alt="En Construccion"
-      />
+      <NavBar/>
+      <Home/>
     </div>
   );
 }
